@@ -4,7 +4,9 @@ export default function Page() {
       <div className="w-full">
         <div className="mx-auto w-[60%] text-center flex flex-col">
           <p className="inline-block text-[3rem] my-0">Hi! I Am </p>
-          <p className="inline-block text-[4.5rem] my-0 font-sofia">Mohith</p>
+          <p className="inline-block text-[4.5rem] my-0 font-sofia hover:rotate-6 hover:text-colorGreyLight transition-all duration-300">
+            Mohith
+          </p>
           <p className="inline-block text-[2rem] mt-[4rem]">
             I am an aspiring Developer excited to learn new amazing technologies
           </p>
@@ -12,10 +14,9 @@ export default function Page() {
         <div className="flex justify-center gap-8 mt-6 w-full">
           <div>
             <svg
-              className="hover:fill-[white]"
+              className="hover:fill-[white] fill-colorTextB"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
-              fill="#efc9af"
               width="50px"
               height="50px">
               {" "}
@@ -24,9 +25,8 @@ export default function Page() {
           </div>
           <div>
             <svg
-              className="hover:fill-[white]"
+              className="hover:fill-[white] fill-colorTextB"
               xmlns="http://www.w3.org/2000/svg"
-              fill="#efc9af"
               width="50px"
               height="50px"
               viewBox="0 0 50 50">
@@ -35,9 +35,8 @@ export default function Page() {
           </div>
           <div>
             <svg
-              className="hover:fill-[white]"
+              className="hover:fill-[white] fill-colorTextB"
               xmlns="http://www.w3.org/2000/svg"
-              fill="#efc9af"
               width="50px"
               height="50px"
               viewBox="0 0 50 50">
@@ -46,9 +45,8 @@ export default function Page() {
           </div>
           <div>
             <svg
-              className="hover:fill-[white]"
+              className="hover:fill-[white] fill-colorTextB"
               xmlns="http://www.w3.org/2000/svg"
-              fill="#efc9af"
               width="50px"
               height="50px"
               viewBox="0 0 50 50">

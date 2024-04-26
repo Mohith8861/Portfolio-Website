@@ -17,13 +17,13 @@ export default function Header() {
         </svg>
       </div>
       <div className="w-[30%] flex justify-end">
-        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-[#efc9af] hover:text-[#111842] transition-all duration-300 ease-in">
+        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in">
           Home
         </button>
-        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-[#efc9af] hover:text-[#111842] transition-all duration-300 ease-in">
+        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in">
           Contact
         </button>
-        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-[#efc9af] hover:text-[#111842] transition-all duration-300 ease-in">
+        <button className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in">
           About
         </button>
       </div>

@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-    <div className=" text-[#efc9af] w-full selection:text-[#111842] selection:bg-[#efc9af] bg-[url('../public/pexels-bri-schneiter-28802-346529.jpg')] bg-scroll bg-cover bg-top bg-no-repeat">
-      <div className="">
-        <div className="bg-[#111842b6] p-[5rem]">
-          <div className="mx-auto w-[18rem] h-[20rem] outline outline-4 outline-[#efc9af] rounded-full overflow-hidden">
+    <div className="bg-[url('../public/pexels-bri-schneiter-28802-346529.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight">
+      <div className="bg-[#1e293ba9]">
+        <div className="p-[5rem]">
+          <div className="mx-auto mb-8 w-[18rem] h-[20rem] rounded-full overflow-hidden">
             <img src="mypic.jpg" className="w-full h-full" alt="" />
           </div>
-          <div className="mt-8 w-[80%] mx-auto">
+          <div className="w-[80%] mx-auto">
             <p className="text-[1.5rem]">
               Welcome to my corner of the web! I'm Mohith, a passionate and
               dedicated developer with a knack for turning ideas into reality
@@ -31,7 +31,9 @@ export default function About() {
             </p>
           </div>
           <div className="w-full text-end">
-            <p className="text-[2rem] font-parisienne">Mohith</p>
+            <p className="text-[2rem] font-parisienne hover:text-[2.5rem] transition-all duration-500">
+              Mohith
+            </p>
           </div>
         </div>
       </div>

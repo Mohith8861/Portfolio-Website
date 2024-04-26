@@ -5,18 +5,18 @@ import Band from "./components/Band";
 import About from "./About";
 // text - [#efc9af]
 // bg-[#111842]
+
 function App() {
   return (
     <>
-      <div className="min-h-[100vh] text-[#efc9af] w-full selection:text-[#111842] bg-[#111842] selection:bg-[#efc9af]">
-        <div className="bg-[url('../public/pexels-bri-schneiter-28802-346529.jpg')] bg-scroll bg-cover bg-top bg-no-repeat">
-          <div className="min-h-[100vh] bg-[#111842b6]">
+      <div className="min-h-[100vh] text-colorTextB w-full selection:text-colorGreyLight selection:bg-colorSelectLight">
+        <div className="bg-[url('../public/denys-nevozhai-duo-xV0TU7s-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat clipHome">
+          <div className="min-h-[100vh] bg-gradient-to-r from-colorbg1 to-colorbg2">
             <Header />
             <Page />
             {/* <Band /> */}
           </div>
         </div>
-        <Band />
         <About />
       </div>
     </>
