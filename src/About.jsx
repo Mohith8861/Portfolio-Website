@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-    <div className=" text-[#efc9af] w-full selection:text-[#111842] selection:bg-[#efc9af] bg-[url('public/pexels-bri-schneiter-28802-346529.jpg')] bg-scroll bg-cover bg-top bg-no-repeat">
+    <div className=" text-[#efc9af] w-full selection:text-[#111842] selection:bg-[#efc9af] bg-[url('../public/pexels-bri-schneiter-28802-346529.jpg')] bg-scroll bg-cover bg-top bg-no-repeat">
       <div className="">
         <div className="bg-[#111842b6] p-[5rem]">
           <div className="mx-auto w-[18rem] h-[20rem] outline outline-4 outline-[#efc9af] rounded-full overflow-hidden">
