@@ -12,12 +12,15 @@ export default {
       colorTertiaryDark: "#5643fa",
       colorGreyDark: "#777",
     },
+    animation: {
+      "spin-slow": "spin 8s linear infinite",
+    },
     extend: {
       fontFamily: {
         lato: ["Lato", "sans-serif"],
         sofia: ["Sofia", "cursive"],
         satisfy: ["Satisfy", "cursive"],
-        parisienne: ["Parisienne", "cursive"],
+        sacramento: ["Sacramento", "cursive"],
       },
     },
   },
