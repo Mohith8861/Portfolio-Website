@@ -9,7 +9,7 @@ export default function Wall() {
         <p className="my-[2rem] text-colorTextB">My Wall</p>
       </div>
       <div className="w-full">
-        <img src="../public/AWS.png" className="m-auto" alt="" />
+        <img src="/aws.png" className="m-auto" alt="" />
       </div>
     </div>
   );

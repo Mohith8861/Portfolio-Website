@@ -2,37 +2,37 @@ export default function Skills() {
   const skill = [
     {
       name: "Python",
-      img: "../public/python.png",
+      img: "/python.png",
       desc: "General programming and problem solving, can also build Machine Learning models.",
     },
     {
       name: "Java",
-      img: "../public/java-logo-1.png",
+      img: "/java-logo-1.png",
       desc: "General programming and problem solving, can do Backend Development",
     },
     {
       name: "JavaScript",
-      img: "../public/javascript.png",
+      img: "/javascript.png",
       desc: "General programming and problem solving, can do Frontend and Backend Development",
     },
     {
       name: "NodeJs",
-      img: "../public/nodejs.png",
+      img: "/nodejs.png",
       desc: "Backend Development using Express and Mongoose libraries",
     },
     {
       name: "ReactJS",
-      img: "../public/react.png",
+      img: "/react.png",
       desc: "Intermediate level projects and optimized web appliications",
     },
     {
       name: "Spring",
-      img: "../public/spring-logo.png",
+      img: "/spring-logo.png",
       desc: "Intermediate level projects and optimized web appliications",
     },
     {
       name: "C++",
-      img: "../public/CPP.png",
+      img: "/cpp.png",
       desc: "Begginer Still learning",
     },
   ];

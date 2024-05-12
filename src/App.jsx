@@ -11,7 +11,7 @@ import Menu from "./Menu";
 function App() {
   return (
     <div className="min-h-[100vh]  text-colorTextB w-full selection:text-colorGreyLight selection:bg-colorSelectLight font-lato">
-      <div className="bg-[url('../public/snow-1868299_1920.jpg')] bg-scroll bg-cover bg-top bg-no-repeat clipHome z-10">
+      <div className="bg-[url('/snow-1868299_1920.jpg')] bg-scroll bg-cover bg-top bg-no-repeat clipHome z-10">
         <div className="min-h-[100vh] bg-gradient-to-r from-colorbg1 to-colorbg2">
           <Header />
           <Page />
