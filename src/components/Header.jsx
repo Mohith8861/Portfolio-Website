@@ -1,5 +1,5 @@
 export default function Header() {
-  const op = ["Home", "Contact", "About"];
+  const op = ["Home", "Contact", "About", "My Wall"];
   return (
     <div className="w-full border-b-2-[#0f149a] h-[5rem] flex justify-between">
       <div className="h-full w-[10%] text-center p-2">
@@ -22,14 +22,15 @@ export default function Header() {
         </svg>
       </div>
 
-      <div className="w-[30%] flex justify-end">
+      <div className="w-[40%] flex justify-end gap-6">
         {op.map((e) => {
           return (
-            <button
+            <a
               key={e}
-              className="h-full text-[1.2rem] mx-4 px-6 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in">
+              href={"#" + e}
+              className="h-full text-[1.2rem] px-8 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in">
               {e}
-            </button>
+            </a>
           );
         })}
       </div>

@@ -21,5 +21,9 @@
   .skillShadow {
     box-shadow: rgba(100, 100, 111, 0.2) 2px 7px 39px 2px;
   }
-  
+  .skillBg {
+    /* background-image: linear-gradient(to right, #7dd4fc88, #0ea4e9ab); */
+    background-image: linear-gradient(to right, #0ea4e9ab, #0ea4e9ab);
+  }
+
 }

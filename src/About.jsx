@@ -1,8 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-    <div className="bg-[url('../public/marco-luzi-ozephPK8J7k-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight">
-      <div className="p-[5rem] bg-[#1e293bd7]">
+    <div
+      id="About"
+      className="bg-[url('../public/denys-nevozhai-duo-xV0TU7s-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight clipSkill2">
+      <div className="p-[5rem] pt-32 bg-[#1e293bd7]">
         <div className="mx-auto mb-8 w-[18rem] h-[20rem] rounded-full overflow-hidden">
           <img src="mypic.jpg" className="w-full h-full" alt="" />
         </div>
@@ -32,13 +34,11 @@ export default function About() {
             Feel free to explore my portfolio to see some of the projects I've
             worked on. If you have a project in mind or just want to connect,
             don't hesitate to reach out—I'm always eager to collaborate and
-            tackle new challenges! Thank you for stopping by.
+            tackle new challenges! Thank you for stopping by . . . . . .
           </p>
         </div>
         <div className="w-full text-center">
-          <p className="text-[3rem] font-sacramento hover:text-[3.5rem] transition-all duration-500">
-            Mohith
-          </p>
+          <p className="text-[3rem] font-sacramento">Mohith</p>
         </div>
       </div>
     </div>
