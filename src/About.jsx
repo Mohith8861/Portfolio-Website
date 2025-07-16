@@ -3,7 +3,7 @@ export default function About() {
   return (
     <div
       id="About"
-      className="bg-[url('/denys-nevozhai-duo-xV0TU7s-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight clipSkill2">
+      className="bg-[url('..public/denys-nevozhai-duo-xV0TU7s-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight clipSkill2">
       <div className="p-[5rem] pt-32 bg-[#1e293bd7]">
         <div className="mx-auto mb-8 w-[18rem] h-[20rem] rounded-full overflow-hidden">
           <img src="mypic.jpg" className="w-full h-full" alt="" />
